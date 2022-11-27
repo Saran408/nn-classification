@@ -1,12 +1,14 @@
-### EXP NO:02
-### DATE:
+### EX NO: 02
 
-# <p align='center'> Developing a Neural Network Classification Model</p>
+### DATE: 08/09/2022
+
+
+# </br><p align = "center"> Developing a Neural Network Classification Model </p>
 
 ## AIM
 
 To develop a neural network classification model for the given dataset.
-
+</br></br>
 ## Problem Statement
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
@@ -15,9 +17,9 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## </br> </br>Neural Network Model
-![image](https://user-images.githubusercontent.com/75235427/189842285-4738cc62-2a04-472b-b6c5-05aac033d187.png)
+## </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> Neural Network Model
 
+![Screenshot 2022-09-12 233010](https://user-images.githubusercontent.com/75235789/189724663-89d90b42-79d4-4d0a-93fc-ddd6745b2511.jpg)
 
 
 ## DESIGN STEPS
@@ -58,7 +60,7 @@ Predicting the model through classification report,confusion matrix.
 
 Predict the new sample data.
 
-## PROGRAM
+## </br></br></br></br></br>PROGRAM
 ```python
 # Developed By : SARAN M
 # Register Number : 212220230044
@@ -171,7 +173,7 @@ x_test_scaled[:,2] = scaler_age.transform(x_test[:,2].reshape(-1,1)).reshape(-1)
 
 ai_brain = Sequential([
      Dense(8,input_shape=[8]),
-     Dense(8,activation='relu'),
+     Dense(16,activation='relu'),
     Dense(32,activation='tanh'),
     Dense(16,activation='relu'),
        
@@ -230,31 +232,27 @@ print(le.inverse_transform(x_single_prediction))
 ![Screenshot 2022-09-12 231234](https://user-images.githubusercontent.com/75235789/189722712-678903b7-b66d-405f-b9bc-5f7faae7166c.jpg)
 
 
-##  </br>OUTPUT
+##  </br> </br> </br> </br> OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://user-images.githubusercontent.com/75235427/189843080-79bcdbd8-201d-4c0c-8598-524798cdcf39.png)
-
+![Screenshot 2022-09-12 231344](https://user-images.githubusercontent.com/75235789/189722467-8f27d5d1-8c52-4e13-9889-80a21de1cbe3.jpg)
 
 
 ### Classification Report
 
-![image](https://user-images.githubusercontent.com/75235427/189843218-14ae6862-c587-47cb-8b9a-ef4e778cbb96.png)
+![Screenshot 2022-09-12 231436](https://user-images.githubusercontent.com/75235789/189722529-c82f3e8d-ad8e-4659-818c-783e07476344.jpg)
 
 
+###  </br> </br> Confusion Matrix
 
-###  </br>Confusion Matrix
-
-![image](https://user-images.githubusercontent.com/75235427/189843306-5b32274c-695b-4c16-944e-85cb3eee3a67.png)
-
+![Screenshot 2022-09-12 231514](https://user-images.githubusercontent.com/75235789/189722564-19c9ec73-ac9e-47a8-816f-5f5f39bca66b.jpg)
 
 
 
 ### New Sample Data Prediction
-![image](https://user-images.githubusercontent.com/75235427/189843424-550af9d9-eb11-45f8-b270-1d0d0574a547.png)
+![Screenshot 2022-09-12 231554](https://user-images.githubusercontent.com/75235789/189722602-befe1dd9-f109-422f-bb19-0ae233aef57b.jpg)
 
 
-
-## RESULT
+## </br></br></br></br></br></br></br>RESULT
 Thus,a neural network classification model for the given dataset is developed.
